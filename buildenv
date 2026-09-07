@@ -1,5 +1,5 @@
 # bump: ant-version /ANT_VERSION="(.*)"/ https://downloads.apache.org/ant/binaries/|re:/apache-ant-([\d.]+)-bin.tar.gz/|semver:*
-ANT_VERSION="1.10.17"
+ANT_VERSION="1.10.18"
 
 export ZOPEN_STABLE_URL="https://downloads.apache.org/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz"
 export ZOPEN_STABLE_DEPS="check_java"
